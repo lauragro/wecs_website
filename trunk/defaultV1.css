@@ -150,9 +150,20 @@ ul.style2 a
 #nav {
     width: 20%;
     float: left;
-    padding: 30px;
+    padding: 30px 0px 0px 30px;
     
 }
+
+#nav a
+{
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    text-decoration: underline;
+}
+
 #nav li{
     font-size: small;
     font: bold;
@@ -175,7 +186,7 @@ ul.style2 a
 
 .container
 {
-    width: 850px;
+    width: 830px;
     margin: 0px auto;
 }
 
@@ -213,7 +224,7 @@ ul.style2 a
     position: relative;
     width: 600px;
     font-size: 2.00em;
-    padding: 20px 0px 0px 120px;
+    padding: 0px 0px 0px 117px;
     /*background: #FFFFFF;*/
 }
 
@@ -225,7 +236,7 @@ ul.style2 a
     float: left;
     width: 600px;
     font-size: 2.00em;
-    padding: 20px 0px 0px 120px;
+    padding: 0px 0px 0px 117px;
     
 }
 
@@ -272,7 +283,7 @@ ul.style2 a
     float: left;
     width: 80%;
     font-size: 2.00em;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 17px;
 }
 
 
@@ -290,7 +301,7 @@ ul.style2 a
     float: left;
     width: 600px;
     font-size: 2.00em;
-    padding: 20px 0px 0px 120px;
+    padding: 0px 0px 0px 117px;
 }
 
 
