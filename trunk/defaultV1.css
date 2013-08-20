@@ -175,7 +175,7 @@ ul.style2 a
 
 .container
 {
-    width: 900px;
+    width: 850px;
     margin: 0px auto;
 }
 
@@ -472,12 +472,22 @@ ul.style2 a
 #sidebar
 {
     float: right;
-    width: 250px;
+    width: 300px;
 }
 
 #sidebar h2
 {
     padding: 0px 0px 20px 0px;
+}
+
+#sidebar a
+{
+    text-decoration: none;
+}
+
+#sidebar a:hover
+{
+    text-decoration: underline;
 }
 
 /******** Footer ********/
