@@ -316,7 +316,7 @@ ul.style2 a
 }
 
 
-/*******ContactUs ****************/
+/*******ContactUs****************/
 
 
 .ContactInfo{
@@ -333,6 +333,22 @@ ul.style2 a
     padding: 0px 0px 0px 117px;
 }
 
+/*******GetInvolved****************/
+
+
+.DoInfo{
+    font-size: 0.70em;
+    color:  #4F4F4F;
+    width: 400px;
+}
+
+#DoContent
+{
+    float: left;
+    width: 600px;
+    font-size: 2.00em;
+    padding: 0px 0px 0px 117px;
+}
 
 /******** HEADER **************/
 
