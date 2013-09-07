@@ -178,17 +178,20 @@ ul.style2 a
 
 #wrapper
 {
-    /*background: #FFFFFF;*/
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
     background-image:url('images/pw_maze_white.png');
     background-repeat:repeat;
-
+    /*padding-bottom: 40px;*/
 }
 
 .container
 {
     width: 830px;
-    height: 100%;
+    min-height: 100%;
     margin: 0px auto;
+    position: relative;
 }
 
 .clearfix
@@ -236,6 +239,10 @@ ul.style2 a
 {
     font-size: .60em;
     width: 700px;
+    float: left;
+    min-height: 100%;
+    margin: 0px auto;
+    position: relative;
 
 }
 
@@ -264,7 +271,7 @@ ul.style2 a
 {
     float: left;
     width: 80%;
-    font-size: 2.00em;
+    font-size: 2.2em;
     padding: 0px 0px 0px 17px;
     
 }
@@ -328,6 +335,7 @@ ul.style2 a
 #ContactContent
 {
     float: left;
+    height: 100%;
     width: 600px;
     font-size: 2.00em;
     padding: 0px 0px 0px 117px;
@@ -345,6 +353,7 @@ ul.style2 a
 #DoContent
 {
     float: left;
+    height: 100%;
     width: 600px;
     font-size: 2.00em;
     padding: 0px 0px 0px 117px;
@@ -475,7 +484,9 @@ ul.style2 a
 #page
 {
     overflow: hidden;
-    padding: 40px 0px;
+    padding: 40px 0 0 0px;
+    min-height: 100%;
+    height: 100%;
 }
 
 
@@ -550,12 +561,18 @@ ul.style2 a
 
 #footer
 {
-    /*position: absolute;*/
-    bottom: 0;
+    position: relative;
+    bottom: 0px;
     width: 100%;
     overflow: hidden;
     padding: 20px 0px;
     background: #FFFFFF;
+    height: 40px;
+}
+
+.footer,.push
+{
+    height: 40px;
 }
 
 #footer p
