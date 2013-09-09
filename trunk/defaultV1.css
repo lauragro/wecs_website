@@ -221,6 +221,15 @@ ul.style2 a
 
 }
 
+.AboutMembers a
+{
+    text-decoration: none;
+}
+
+.AboutMembers a:hover
+{
+    text-decoration: underline;
+}
 
 #AboutContent
 {
