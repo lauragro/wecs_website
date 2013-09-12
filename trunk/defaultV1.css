@@ -510,6 +510,22 @@ ul.style2 a
     color: #000000;
 }
 
+/******** LEFT FRONT *********/
+
+#leftFront
+{
+    float: left;
+    width: 450px;
+    padding: 20 20 20 20px;
+
+}
+
+#leftFront img
+{
+    float: center;
+    margin-top: 40px;
+}
+
 /********* CONTENT **********/
 
 #content
@@ -541,7 +557,7 @@ ul.style2 a
     float: left;
     margin-right: 40px;
 }
- 
+
 
 /******* SIDEBAR ******/
 
