@@ -359,6 +359,16 @@ ul.style2 a
     width: 400px;
 }
 
+.DoInfo a
+{
+    text-decoration: none;
+}
+
+.DoInfo a:hover
+{
+    text-decoration: underline;
+}
+
 #DoContent
 {
     float: left;
