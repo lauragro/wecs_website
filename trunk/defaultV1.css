@@ -11,7 +11,7 @@ body
     /*background: #FFD1A3;*/
     background: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color: #4F4F4F; /*Text - grey*/
 }
 
@@ -201,10 +201,16 @@ ul.style2 a
 
 /*******About us ************/
 
+.AboutMission {
+    color:  #4F4F4F;
+}
+
 #profiles .profile {
     width: 100%;
     position: relative;
     margin-bottom: 20px;
+    color:  #4F4F4F;
+
     box-sizing: border-box;
 }
 
@@ -220,13 +226,23 @@ ul.style2 a
     vertical-align: top;
 }
 
+#profiles .profile .blurb .name {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#profiles .profile .blurb .position {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
 
 
 /********Events***************/
 
 .Events
 {
-    font-size: .60em;
     width: 700px;
     float: left;
     min-height: 100%;
@@ -245,11 +261,9 @@ ul.style2 a
 
 
 .EventsUL i{
-    font-size: .70em;
 }
 
 .Events h3{
-    font-size: 1.80em;
 }
 
 .Events img{
@@ -260,7 +274,6 @@ ul.style2 a
 {
     float: left;
     width: 80%;
-    font-size: 2.2em;
     padding: 0px 0px 0px 17px;
 
 }
@@ -277,7 +290,6 @@ ul.style2 a
 
 .Projects
 {
-    font-size: .60em;
     width: 700px;
 
 }
@@ -292,11 +304,9 @@ ul.style2 a
 
 
 .ProjectsUL i{
-    font-size: .70em;
 }
 
 .Projects h3{
-    font-size: 1.70em;
 }
 
 .Projects img{
@@ -307,7 +317,6 @@ ul.style2 a
 {
     float: left;
     width: 80%;
-    font-size: 2.00em;
     padding: 0px 0px 0px 17px;
 }
 
@@ -316,7 +325,6 @@ ul.style2 a
 
 
 .ContactInfo{
-    font-size: 0.70em;
     color:  #4F4F4F;
     width: 400px;
 }
@@ -326,7 +334,6 @@ ul.style2 a
     float: left;
     height: 100%;
     width: 600px;
-    font-size: 2.00em;
     padding: 0px 0px 0px 117px;
 }
 
@@ -334,7 +341,6 @@ ul.style2 a
 
 
 .DoInfo{
-    font-size: 0.70em;
     color:  #4F4F4F;
     width: 400px;
 }
@@ -354,7 +360,6 @@ ul.style2 a
     float: left;
     height: 100%;
     width: 600px;
-    font-size: 2.00em;
     padding: 0px 0px 0px 117px;
 }
 
@@ -371,6 +376,10 @@ ul.style2 a
 #header
 {
     overflow: hidden;
+}
+
+#header.container {
+    width: 900px;
 }
 
 .header-icon{
@@ -409,15 +418,15 @@ ul.style2 a
     text-decoration: none;
     /*text-transform: uppercase;*/
     font-weight: 400;
-    font-size: 1.00em;
 }
 
 .header-logo-text
 {
 	/*text alignment*/
     float:left;
-    padding:30px 20px 20px 0;
+    padding:30px 0 20px 0;
     height:99px;
+    font-weight:normal;
 }
 
 
@@ -446,8 +455,8 @@ ul.style2 a
     float: left;
     cursor: pointer;
     width: 100px;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
 
 }
@@ -470,7 +479,6 @@ ul.style2 a
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.10em;
     color: #FFFFFF; /*white*/
 }
 
@@ -506,7 +514,6 @@ ul.style2 a
     letter-spacing: -1px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 2em;
     /*color: #FFD1A3;*/
     color: #000000;
 }
@@ -533,7 +540,6 @@ ul.style2 a
 {
     float: left;
     width: 450px;
-    font-size: 1.60em;
     padding: 10px 20px 0px 20px;
     background: #FFFFFF;
     box-shadow: 5px 5px 5px #888888;
@@ -543,8 +549,6 @@ ul.style2 a
 #content h2
 {
     padding: 0px 10px 20px 10px;
-    font-size: 1.50em;
-
 }
 
 #content h3
@@ -671,7 +675,6 @@ ul.style2 a
     padding: 20px 0px 20px 0px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.00em;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     /*color: #FFD1A3;*/
@@ -684,7 +687,6 @@ ul.style2 a
     border-top: 1px solid #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.50em;
     /*color: #FFD1A3;*/
     color: #000000;
 }
