@@ -1,0 +1,119 @@
+@import mixins
+@import base
+@import index
+@import about
+@import projects
+
+$contentWidth: 800px
+$headerHeight: 160px
+
+body
+  background-image: url('/images/pw_maze_white.png')
+  background-repeat: repeat
+  font-family: "Open Sans", sans-serif
+  font-weight: 200
+  font-size: 16px
+  margin: 0
+
+
+#content
+  width: $contentWidth
+  margin: 0 auto
+
+#pageHeader
+  box-sizing: border-box
+  background-color: #6e6d6d
+  height: $headerHeight
+  width: 100%
+  .content
+    width: $contentWidth
+    margin: 0 auto
+    #brand
+      height: 100%
+      width: 35%
+      display: inline-block
+      img
+        position: absolute
+        top: $headerHeight / 2 - 118px / 2
+
+      h1
+        color: black
+        width: 150px
+        font-size: 20px
+        margin-left: 100px
+        margin-top: 37px
+    nav
+      display: inline-block
+      position: relative
+      top: -20px
+      margin-left: 250px
+      white-space: nowrap
+      li
+        $height: 30px
+        display: inline-block
+        cursor: pointer
+        height: $height
+        line-height: $height
+        padding: 4px 8px
+        background-color: #FFCC00
+        a
+          color: white
+          font-weight: 500
+          display: block
+          height: 100%
+          width: 100%
+        &:hover, &.active
+          outline: none
+          background-color: #FFDD00
+          a
+            color: black
+
+@media screen and (max-width: 1300px)
+  .sub-menu
+    display: none
+
+@media (max-width: 820px)
+  $miniPadding: 10px
+  #content
+    margin: 20px $miniPadding
+    width: auto
+  #pageHeader .content
+    margin: 0 $miniPadding
+    width: auto
+  .profiles
+    .profile
+      margin-bottom: 20px !important
+    .blurb
+      width: 480px !important
+      margin-left: 10px !important
+
+@media (max-width: 710px)
+  #content
+    margin-top: 50px
+  #pageHeader .content nav
+    position: absolute
+    top: $headerHeight
+    left: 0
+    right: 0
+    margin: 0
+    text-align: center
+  .profiles
+    .blurb
+      width: auto !important
+      margin-left: 0 !important
+    img
+      display: none !important
+
+  #home
+    #main
+      display: block
+      margin: 0 auto
+      width: auto
+      aside
+        width: auto !important
+    #announcements
+      display: block
+      margin: 20px auto
+      width: auto
+      .feed
+        width: auto

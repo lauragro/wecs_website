@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  section#home
+
+    section#main
+      aside#mission-statement
+        p.statement
+          "Our goal is to encourage and support gender diversity in Engineering, Computer Science, and other technical fields."
+        p.
+          - WECS Members
+      img
+
+    section#announcements
+      ul.feed(title="Announcements")
+        li.feed-item
+          | Welcome! Join our mailing list to hear about scholarships, volunteer opportunities and all the fun stuff we do, email
+          b  wecs@csc.uvic.ca
+        li.feed-item
+          | The next CSC Revealed Clinic will focus on tough topics from the midterm and will be held
+          b  Friday October 18 @2:30PM in ECS 348.
+        li.feed-item
+          a(href="http://www.delphix.com/scholarship/") SCHOLARSHIP:
+          |  Delphix is hosting a $5000 coding competition for women who design programs outside of work or school.
+          b  Deadline is November 17th!
+        li.feed-item
+          | Learn how to make your own games with the Code Liberation Foundation for free at
+          a(href="codeliberation.org")  codeliberation.org!
+        li.feed-item
+          | Checkout a great show done by Women on Air at the CFUV on campus radio station about women in STEM. One of our own was interviewed in
+          a(href="https://soundcloud.com/cfuv/women-on-air-women-in-1?in=cfuv/sets/women-on-air")  part 2
+          |  of the show as well!

@@ -1,0 +1,7 @@
+#projects p {
+  text-align: justify; }
+#projects .ProjectsUL {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 2;
+  padding: 10px 20px; }
