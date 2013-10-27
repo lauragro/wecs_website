@@ -84,6 +84,8 @@ img.centered {
       font-weight: 200; }
     #home #main #mission-statement p:nth-child(2) {
       text-align: right; }
+  #home #main img {
+    margin-top: 50px; }
 #home #announcements {
   box-sizing: border-box;
   width: 40%;
@@ -199,7 +201,10 @@ body {
     margin-bottom: 20px !important; }
   .profiles .blurb {
     width: 480px !important;
-    margin-left: 10px !important; } }
+    margin-left: 10px !important; }
+
+  #home #main img {
+    width: 375px; } }
 @media (max-width: 710px) {
   #content {
     margin-top: 50px; }
@@ -221,7 +226,8 @@ body {
   #home #main {
     display: block;
     margin: 0 auto;
-    width: auto; }
+    width: auto;
+    text-align: center; }
     #home #main aside {
       width: auto !important; }
   #home #announcements {
