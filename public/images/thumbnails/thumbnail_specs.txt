@@ -1,0 +1,3 @@
+Thumbnails should be resized to 128px wide, with the height scaled relatively. No reference to the full-size image is required in the site code; it will be found one directory up, assuming it has the same name as the thumbnail.
+
+Boring math behind: the page's layout is specified to be 800px wide. 128px, plus a 2% margin on either side, will put exactly 5 images per row. The CSS will also force every thumb to be 128px wide to make the site a little more robust in case you're in a hurry and want it to scale the full-size image for you (not recommended).

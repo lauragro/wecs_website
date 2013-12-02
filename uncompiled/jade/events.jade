@@ -1,6 +1,14 @@
 extends layout
 
+block scripts
+    link(rel='stylesheet', href='stylesheets/events.css')
+    script(src='javascripts/jquery-2.0.3.min.js')
+    script(src='javascripts/events.js')
+
 block content
+
+  div#_overlay
+    img(src='')
 
   nav.sub-menu
     ul
@@ -12,61 +20,45 @@ block content
   .Events
     h1.contentHeader Current Events
     
-    img.centered(src='images/ChocolateParty.png', width='600px')
-    
-    
-    img.centered(src='images/ExecInTechField.jpg', width='600px')
-    
-
-    img.centered(src='images/Oct10_George_2013_1.png', width='600px')
-
-
-    img.centered(src='images/CSCRevealedFall2013_2.jpg', width='600px')
-
-
-    img.centered(src='images/wecs3D.jpg', width='600px')
-
-
-    img.centered(src='images/CSCRevealedFall2013_1.jpg', width='600px')
-
+    ul.thumbs
+      li
+        img(src='images/thumbnails/ChocolateParty.png')
+      li
+        img(src='images/thumbnails/ExecInTechField.jpg')
+      li
+        img(src='images/thumbnails/Oct10_George_2013_1.png')
+      li
+        img(src='images/thumbnails/CSCRevealedFall2013_2.jpg')
+      li
+        img(src='images/thumbnails/wecs3D.jpg')
+      li
+        img(src='images/thumbnails/CSCRevealedFall2013_1.jpg')
 
 
     h1#Spring2013.contentHeader Spring 2013
-
-    img.centered(src='images/0330_potluck.jpg', width='600px')
-
-
-    img.centered(src='images/0322_GraceWongSneddon.jpg', width='600px')
-
-
-    img.centered(src='images/0208_MaiaHoeberechts.png', width='600px')
-
-
-    img.centered(src='images/0125_AnnaStukas.jpg', width='600px')
-
-
+    ul.thumbs
+      li
+        img(src='images/thumbnails/0330_potluck.jpg')
+      li
+        img(src='images/thumbnails/0322_GraceWongSneddon.jpg')
+      li
+        img(src='images/thumbnails/0208_MaiaHoeberechts.png')
+      li
+        img(src='images/thumbnails/0125_AnnaStukas.jpg')
 
     h1#Fall2012.contentHeader Fall 2012
 
-    img.centered(src='images/WECSposter1123.jpg', width='600px')
-
-
-    img.centered(src='images/year1foodevent2012.png', width='600px')
-
-
-    img.centered(src='images/poster1026_2012.png', width='600px')
-
-
-    img.centered(src='images/poster1012_2012.png', width='700px')
-
-
-    img.centered(src='images/poster0928_2012.png', width='700px')
-
-
-    img.centered(src='images/poster0905_2012.png', width='700px')
-
-  script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
-  script.
-
-    $("#buttons .events").addClass('active')
-
+    ul.thumbs
+      li
+        img(src='images/thumbnails/WECSposter1123.jpg')
+      li
+        img(src='images/thumbnails/year1foodevent2012.png')
+      li
+        img(src='images/thumbnails/poster1026_2012.png')
+      li
+        img(src='images/thumbnails/poster1012_2012.png')
+      li
+        img(src='images/thumbnails/poster0928_2012.png')
+      li
+        img(src='images/thumbnails/poster0905_2012.png')
+        

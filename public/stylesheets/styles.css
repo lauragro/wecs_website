@@ -88,8 +88,8 @@ img.centered {
     margin-top: 50px; }
 #home #announcements {
   box-sizing: border-box;
-  width: 40%;
-  padding-left: 20px; }
+  width: 38%;
+  padding-left: 2%; }
 
 #about .mission p {
   margin: 20px 0;
@@ -221,18 +221,4 @@ body {
     width: auto !important;
     margin-left: 0 !important; }
   .profiles img {
-    display: none !important; }
-
-  #home #main {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    text-align: center; }
-    #home #main aside {
-      width: auto !important; }
-  #home #announcements {
-    display: block;
-    margin: 20px auto;
-    width: auto; }
-    #home #announcements .feed {
-      width: auto; } }
+    display: none !important; } }

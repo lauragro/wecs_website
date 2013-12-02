@@ -4,14 +4,12 @@ html
     title WECS
     link(rel='stylesheet', href='stylesheets/styles.css')
     link(rel='stylesheet', href='stylesheets/grid.min.css')
-    script(src="javascripts/prefix-free.js")
     script(src="javascripts/app.js")
-
+    
+    block scripts
 
     meta(charset="UTF-8")
   body
     include _nav
     section#content
         block content
-
-
