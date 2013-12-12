@@ -1,5 +1,6 @@
 *.DS_Store
 .sass-cache
+Thumbs.db
 
 node_modules
 stop.bat
