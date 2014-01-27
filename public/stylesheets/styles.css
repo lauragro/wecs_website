@@ -91,6 +91,11 @@ img.centered {
   width: 38%;
   padding-left: 2%; }
 
+.calendar {
+  width: 95%;
+  height: 350px;
+  border: none; }
+
 #about .mission p {
   margin: 20px 0;
   font-size: 18px;
