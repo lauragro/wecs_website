@@ -94,7 +94,8 @@ img.centered {
 .calendar {
   width: 95%;
   height: 350px;
-  border: none; }
+  border: none;
+  margin-top: 20px; }
 
 #about .mission p {
   margin: 20px 0;
