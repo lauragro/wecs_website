@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>WECS Announcements</title>
+<link>http://http://wecs.csc.uvic.ca</link>
+<description>Current events involving the UVic Women in Engineering and Computer Science</description>
+<item>
+<title>Test Item</title>
+<link>google.com</link>
+<description>Testing things!</description>
+</item>
+</channel>
+</rss>

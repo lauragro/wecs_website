@@ -1,5 +1,6 @@
 http = require 'http'
 express = require 'express'
+RSS = require 'rss'
 
 app = express()
 
