@@ -6,28 +6,17 @@ block content
     section#main
       aside#mission-statement
         p.statement
-          "Our goal is to encourage and support gender diversity in Engineering, Computer Science, and other technical fields."
+          - "Our goal is to encourage and support gender diversity in Engineering, Computer Science, and other technical fields."
         p.
           - WECS Members
-      iframe.calendar(src="https://www.google.com/calendar/embed?src=h74vjhtr89845e176idjdc4t88%40group.calendar.google.com&ctz=America/Vancouver" frameborder="0" scrolling="no")
+        
+      aside#calendar
+        ul.feed
+          li.feed-item
+            iframe.calendar(src="https://www.google.com/calendar/embed?title=WECS%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffff66&amp;src=p2mo3urtr8mbv1duuc1aiuukkk%40group.calendar.google.com&amp;color=%23060D5E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no")
 
     section#announcements
-      ul.feed(title="Announcements")
+      ul.feed(title="Announcement:")
         li.feed-item
-          | Welcome! Join our mailing list to hear about scholarships, volunteer opportunities and all the fun stuff we do, email
-          b  wecs@csc.uvic.ca
-        li.feed-item
-          b Weekend programming competitions: <br><br>
-          b 
-            a(href="https://www.canadianopendataexperience.com/") CODE Hackathon <br>
-          | February 28 to March 2. <br>
-          | Grand prizes up to $30,000. Meet and pitch ideas to tech-focused venture capitalists. Hosted by 
-          a(href="http://www.xmg.com/about/") XMG Studio Inc.
-          | Sign up at canadianopendataexperience.com <br><br>
-        li.feed-item
-          | Learn how to make your own games with the Code Liberation Foundation for free at
-          a(href="codeliberation.org")  codeliberation.org!
-        li.feed-item
-          | Checkout a great show done by Women on Air at the CFUV on campus radio station about women in STEM. One of our own was interviewed in
-          a(href="https://soundcloud.com/cfuv/women-on-air-women-in-1?in=cfuv/sets/women-on-air")  part 2
-          |  of the show as well!
+          <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/UvicWecs/photos/a.114769718684735.20794.114767965351577/397962563698781/?type=1" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UvicWecs/photos/a.114769718684735.20794.114767965351577/397962563698781/?type=1">Post</a> by <a href="https://www.facebook.com/UvicWecs">UVIC Women in Engineering and Computer Science</a>.</div></div>
+        
